@@ -14,6 +14,7 @@ import {
   Clock
 } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   const highlights = [
@@ -155,6 +156,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* CTA Section */}
       <section className="py-20 gradient-dark">
