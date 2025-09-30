@@ -270,7 +270,7 @@ const UseCases = () => {
                 asChild 
                 variant="outline" 
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-dark-navy font-medium text-lg px-8 py-4"
+                className="border-white text-blue-500 hover:bg-white hover:text-dark-navy font-medium text-lg px-8 py-4"
               >
                 <Link to="/services">
                   View Our Services
